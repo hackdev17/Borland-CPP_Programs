@@ -35,9 +35,11 @@ void binarysearch::search()
         }
         else
             if(ele<a[mid])
+            {
                 e=mid-1;
             else
                 b=mid+1;
+            }
     }
 }
 void binarysearch::display()
