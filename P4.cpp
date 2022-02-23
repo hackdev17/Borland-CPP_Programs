@@ -30,8 +30,8 @@ void sorting::sort()
                 t=a[j];
                 a[j]=a[j-1];
                 a[j-1]=t;
-                j--;
             }
+        j--;
         }
     }
 }
